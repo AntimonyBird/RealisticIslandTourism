@@ -6,7 +6,8 @@
   #navbar button {
     float: left;
     display: block;
-    color: #797979;
+    background-color: #303030;
+    color: #ffffff;
     text-align: center;
     padding: 14px;
     text-decoration: none;
