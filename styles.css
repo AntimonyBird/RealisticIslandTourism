@@ -30,7 +30,8 @@
   .header {
     background-color: hsl#797979;
     padding: 30px;
-    text-align: center;
+   /* text-align: center; TEST IF THIS WORKS BEFORE DELETING */
+    position: relative;
   }
   
   body {
@@ -58,6 +59,6 @@
 .center {
   position: absolute;
   top: 50%;
-  width: 100%;
-  text-align: center;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
