@@ -6,11 +6,12 @@
   #navbar button {
     float: left;
     display: block;
-    background-color: #303030;
-    color: #ffffff;
+    color: #303030;
     text-align: center;
     padding: 14px;
     text-decoration: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
   }
   
   .content {
@@ -41,4 +42,16 @@
 
 .headingImage {
     object-fit: fill;
+}
+
+.navbarLink {
+  background-color: #303030;
+  color: #ffffff;
+  transition-duration: .4s;
+  cursor: pointer;
+}
+
+.navbarLink:hover {
+  background-color: #ffffff;
+  color: black;
 }
