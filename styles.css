@@ -3,7 +3,7 @@
     background-color: #303030;
   }
   
-  #navbar {
+  #navbar button {
     float: left;
     display: block;
     text-align: center;
