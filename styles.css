@@ -67,4 +67,10 @@
 
 h1 {
   font-family: Spectral, serif;
+  text-align: center;
+}
+
+h2 {
+  font-family: Spectral;
+  text-align: center;
 }
